@@ -1,0 +1,11 @@
+@import '~@angular/material/theming';
+@import "themes/components-theme";
+@import "app/app.component";
+
+@include mat-core();
+@include angular-material-theme($theme);
+@include components-theme($theme);
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

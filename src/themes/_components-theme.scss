@@ -1,0 +1,15 @@
+
+@import '../../node_modules/@angular/material/theming';
+@import '../app/components/toolbar/toolbar-theme';
+@import '../app/app-theme';
+
+@mixin components-theme($theme) {
+  @include toolbar-theme($theme);
+  @include app-theme($theme);
+}
+
+// Define the default light theme.
+// It is necessary for the correct start of the application.
+$primary: mat-palette($mat-blue-gray, 50);
+$accent:  mat-palette($mat-blue, 500);
+$theme: mat-light-theme($primary, $accent);

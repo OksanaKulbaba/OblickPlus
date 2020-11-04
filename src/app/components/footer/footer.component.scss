@@ -1,0 +1,22 @@
+@import "../../../themes/const";
+
+
+.footer{
+  width: 100%;
+  height: $footer-height;
+  font-size: .9rem;
+  font-weight: lighter;
+
+  box-shadow:
+      3px 3px 5px 5px rgba(0,0,0,.2),
+      6px 6px 10px 10px rgba(0,0,0,.14),
+      1px 1px 18px 18px rgba(0,0,0,.12);
+
+
+
+  &__container{
+    margin: 0 auto;
+    max-width: 95%;
+    height: inherit;
+  }
+}

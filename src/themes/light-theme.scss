@@ -1,7 +1,7 @@
 @import 'components-theme';
 
 // Define the light theme.
-$primary: mat-palette($mat-green, 500);
+$primary: mat-palette($mat-light-blue, 50);
 $accent:  mat-palette($mat-blue, 500);
 
 $mat-light-theme-background: (

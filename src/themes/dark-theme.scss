@@ -1,26 +1,26 @@
 @import 'components-theme';
 
 // Define the dark theme.
-$primary: mat-palette($mat-green, 500);
+$primary: mat-palette($mat-cyan, 500);
 $accent:  mat-palette($mat-blue, 500);
 
 // Background palette for dark themes.
 $mat-dark-theme-background: (
   status-bar: black,
-  app-bar:    map_get($mat-blue-grey, 900),
-  background: map_get($mat-blue-grey, 900),
+  app-bar:    map_get($mat-blue, 900),
+  background: map_get($mat-blue, 900),
   hover:      rgba(white, 0.04),
-  card:       map_get($mat-blue-grey, 800),
-  dialog:     map_get($mat-blue-grey, 800),
+  card:       map_get($mat-blue, 800),
+  dialog:     map_get($mat-blue, 800),
   disabled-button: rgba(white, 0.12),
-  raised-button: map-get($mat-blue-grey, 800),
+  raised-button: map-get($mat-blue, 800),
   focused-button: $light-focused,
-  selected-button: map_get($mat-blue-grey, 900),
-  selected-disabled-button: map_get($mat-blue-grey, 800),
+  selected-button: map_get($mat-blue, 900),
+  selected-disabled-button: map_get($mat-blue, 800),
   disabled-button-toggle: black,
-  unselected-chip: map_get($mat-blue-grey, 700),
+  unselected-chip: map_get($mat-blue, 700),
   disabled-list-option: black,
-  tooltip: map_get($mat-blue-grey, 700),
+  tooltip: map_get($mat-blue, 700),
 );
 // Foreground palette for dark themes.
 $mat-dark-theme-foreground: (

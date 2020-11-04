@@ -5,21 +5,21 @@ $primary: mat-palette($mat-green, 500);
 $accent:  mat-palette($mat-blue, 500);
 
 $mat-light-theme-background: (
-  status-bar: map_get($mat-blue-gray, 300),
-  app-bar:    map_get($mat-blue-gray, 50),
-  background: map_get($mat-blue-gray, 50),
+  status-bar: map_get($mat-light-blue, 300),
+  app-bar:    map_get($mat-light-blue, 50),
+  background: map_get($mat-light-blue, 50),
   hover:      rgba(black, 0.04),
   card:       white,
   dialog:     white,
   disabled-button: rgba(black, 0.12),
   raised-button: white,
   focused-button: $dark-focused,
-  selected-button: map_get($mat-blue-gray, 300),
-  selected-disabled-button: map_get($mat-blue-gray, 400),
-  disabled-button-toggle: map_get($mat-blue-gray, 200),
-  unselected-chip: map_get($mat-blue-gray, 300),
-  disabled-list-option: map_get($mat-blue-gray, 200),
-  tooltip: map_get($mat-blue-gray, 700),
+  selected-button: map_get($mat-light-blue, 300),
+  selected-disabled-button: map_get($mat-light-blue, 400),
+  disabled-button-toggle: map_get($mat-light-blue, 200),
+  unselected-chip: map_get($mat-light-blue, 300),
+  disabled-list-option: map_get($mat-light-blue, 200),
+  tooltip: map_get($mat-light-blue, 700),
 );
 // Foreground palette for light themes.
 $mat-light-theme-foreground: (
